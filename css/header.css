@@ -1,0 +1,29 @@
+#imgLogo{height: auto; width: 50%;}
+
+header{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header a{font-size: 1.2rem;padding: 10px 20px;}
+
+@media (max-width: 800px){
+    header{flex-direction: column;gap: 40px;padding: 20px;}
+    
+    header a{background: rgb(221, 217, 217);border-radius: 5px;}
+}
+
+@media (max-width: 600px){
+    ul{gap: 10px;}    
+}
